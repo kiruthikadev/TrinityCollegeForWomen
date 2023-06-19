@@ -1,8 +1,17 @@
 <html>
 <head>
 <title>UG Courses</title>
-<button class="btn"><a href="index.html">Back to Home</a></li></button>
 <h1 class="heading-style">UG Courses</h1>
+<nav>
+<ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="ug.html">UG Courses</a></li>
+	  <li><a href="pg.html">PG Courses</a></li>
+	  <li><a href="research.html">Research Departments</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+	</nav>
         <p class="blink">We have started the new course <mark>B.Sc.,Artificial Intelligence and Data Science"</mark> from this academic year 2023-2024. </p>
 
 
@@ -131,8 +140,41 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
+li {
+  float: left;
+}
 
+li a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
 
+nav ul {
+	
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #f1f1f1;
+    }
+
+    nav li {
+      align:right;
+    }
+
+    nav li a {
+      display: block;
+      color: blue;
+	  font-size:150%;
+      text-align: left;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+  
+    nav li a:hover {
+      background-color:mediumseagreen;
+    }
    
   </style>
 </head>
