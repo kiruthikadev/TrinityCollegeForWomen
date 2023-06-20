@@ -12,8 +12,19 @@
     </ul>
 	</nav>
 <h1 class="heading-style">PG Courses</h1>
+        <p class="blink">We have started the new course <mark>B.Sc.,Artificial Intelligence and Data Science"</mark> from this academic year 2023-2024. </p>
 
 <style>
+div.container {
+  text-align: center;
+  background-color:powderblue;
+  font-size:150%;
+}
+
+ul.myUL {
+  display: inline-block;
+  text-align: left;
+}
 li {
   float: left;
 }
@@ -23,7 +34,6 @@ li a {
   padding: 8px;
   background-color: #dddddd;
 }
-
 nav ul {
 	
       list-style-type: none;
@@ -49,14 +59,19 @@ nav ul {
     nav li a:hover {
       background-color:mediumseagreen;
     }
-.btn {
-  background-color: powerblue;
-  border: none;
-  color: white;
-  padding: 12px 16px;
-  font-size: 16px;
-  cursor: pointer;
-}
+
+  
+  .blink {
+                animation: blinker 1.5s linear infinite;
+                color: brown;
+				font-size:200%;
+                font-family: sans-serif;
+            }
+            @keyframes blinker {
+                50% {
+                    opacity: 0;
+                }
+            }
 .heading-style {
     color: white;
     font-size: 45px;
@@ -65,19 +80,19 @@ nav ul {
 	
   }
     /* Optional CSS styling for the menu bar */
-    div.container {
-  text-align: center;
-  background-color:powderblue;
-  font-size:150%;
+    
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
 }
 
 
-ul.myUL {
-  display: inline-block;
-  text-align: left;
-}
-	
-	
 	nav ul {
 	
       list-style-type: none;
@@ -94,7 +109,7 @@ ul.myUL {
     nav li a {
       display: block;
       color: blue;
-	  font-size:250%;
+	  font-size:150%;
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
@@ -102,9 +117,7 @@ ul.myUL {
 	
 	 nav li a:hover {
       background-color:mediumseagreen;
-    }
-
-  * {box-sizing: border-box;}
+    }* {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
 img {vertical-align: middle;}
@@ -165,20 +178,20 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
-
    
   </style>
 </head>
 <body>
 <div class="container">
   <ul class="myUL"> 
-      <li>M.A.TAMIL</li>
-      <li>M.A.ENGLISH</li>
-      <li>M.Sc.MATHEMATICS</li>
-	  <li>M.Sc.PHYSICS</li>
-	  <li>M.Sc.CHEMISTRY</li>
-	  <li>M.Sc.COMPUTER SCIENCE</li>
-	  <li>M.Com.</li>
+      <li>M.A.TAMIL</li><br>
+	  
+      <li>M.A.ENGLISH</li><br>
+      <li>M.Sc.MATHEMATICS</li><br>
+	  <li>M.Sc.PHYSICS</li><br>
+	  <li>M.Sc.CHEMISTRY</li><br>
+	  <li>M.Sc.COMPUTER SCIENCE</li><br>
+	  <li>M.Com.</li><br>
 	  
     </ul>
 <div class="slideshow-container">
