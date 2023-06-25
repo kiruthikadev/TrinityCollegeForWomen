@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admission Form</title>
+  <link rel="stylesheet" href="formbackcolor.css">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 20px;
+    }
+    
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    h1 {
+      text-align: center;
+      color: #4CAF50;
+    }
+    
+    .form-group {
+      margin-bottom: 20px;
+    }
+    
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+      color: #666;
+      font-weight: bold;
+    }
+    
+    .form-group input,
+    .form-group select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+    
+    .form-group textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      resize: vertical;
+      font-size: 16px;
+    }
+    
+    .submit-button {
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+	  margin-left:450px;
+    }
+    
+    .submit-button:hover {
+      background-color: #45a049;
+    }
+    
+    @media screen and (max-width: 600px) {
+      .container {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Admission Form</h1>
+    <form action="#" method="post">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+	  <div class="form-group">
+        <label for="Father Name">Father Name:</label>
+        <input type="text" id="Father Name" name="Father Name" required>
+      </div>
+	  <div class="form-group">
+        <label for="Mother Name:">Mother Name:</label>
+        <input type="text" id="Mother Name:" name="Mother Name:" required>
+      </div>
+	  <div class="form-group">
+        <label for="Address:">Address</label>
+        <input type="text" id="Address" name="Address:" required>
+      </div>
+	  <div class="form-group">
+        <label for="LAST STUDIED SCHOOL & PLACE"></label>
+        <input type="text" id="place" name="LAST STUDIED SCHOOL & PLACEs:" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" name="phone" required>
+      </div>
+	 
+	 
+	 <div> 
+	 <p><strong>Choose your Department:</strong></p>
+
+ <input type="radio" id="Tamil" name="fav_language" value="Tamil">
+  <label for="Tamil">Tamil</label><br><br>
+ <input type="radio" id="English" name="fav_language" value="English">
+  <label for="English">English</label><br><br>
+ <input type="radio" id="Maths" name="fav_language" value="Maths">
+  <label for="Maths">Maths</label><br><br>
+ <input type="radio" id="Commerce" name="fav_language" value="Commerce">
+  <label for="Commerce">Commerce</label><br><br>
+ <input type="radio" id="Chemistry" name="fav_language" value="Chemistry">
+  <label for="Chemistry">Chemistry</label><br><br>
+ <input type="radio" id="Physics" name="fav_language" value="Physics">
+  <label for="Physics">Physics</label><br><br>
+ <input type="radio" id="COSTUME DESIGN AND FASHION DESIGN" name="fav_language" value="COSTUME DESIGN AND FASHION DESIGN">
+  <label for="COSTUME DESIGN AND FASHION DESIGN">COSTUME DESIGN AND FASHION DESIGN</label><br><br>
+<input type="radio" id="B.C.A" name="fav_language" value="B.C.A">
+  <label for="B.C.A">B.C.A</label><br><br>
+<input type="radio" id="NUTRITION AND DIETETICS" name="fav_language" value="NUTRITION AND DIETETICS">
+  <label for="NUTRITION AND DIETETICS">NUTRITION AND DIETETICS</label><br><br>
+<input type="radio" id="Computer Science" name="fav_language" value="Computer Science">
+  <label for="Computer Science">Computer Science</label><br><br>
+<input type="radio" id="ARTIFICIAL INTELLIGENCCE & DATA SCIENCE" name="fav_language" value="ARTIFICIAL INTELLIGENCCE & DATA SCIENCE">
+  <label for="ARTIFICIAL INTELLIGENCCE & DATA SCIENCE">ARTIFICIAL INTELLIGENCCE & DATA SCIENCE</label><br><br>
+
+  
+
+  
+  </div>
+      
+      <div class="form-group">
+        <label for="course">Course:</label>
+        <select id="course" name="course" required>
+          <option value="">Select a course</option>
+          <option value="UG Courses">UG Courses</option>
+          <option value="PG Courses">PG Courses</option>
+          <option value="Research Courses">Research Courses</option>
+        </select>
+      </div>
+      
+      
+      
+	  <p><strong>Upload Your Marksheet</strong></p>
+	  <div>
+      <label for="attachment">Attachment:</label>
+    <input type="file" id="attachment" name="attachment">
+	</div>      
+<br>
+<br>
+
+
+  <input type="submit" value="Submit" class="submit-button">
+  </form>
+
+
+
+
+	
+	<!--<input type="submit" value="Submit" class="submit-button">-->
+   
+   
+
+
+
+

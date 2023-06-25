@@ -4,6 +4,7 @@
   
 		 <nav>
     <ul>
+	<li><a href="index.html">Gallery</a></li>
       <li><a href="home.html">Home</a></li>
       <li><a href="about.html">About</a></li>
       <li><a href="ug.html">UG Courses</a></li>
@@ -13,10 +14,37 @@
     </ul>
   </nav>
 <h1 class="heading-style">Welcome To Our Campus</h1>
+
+        <p class="blink">We have started the new course <mark>B.Sc.,Artificial Intelligence and Data Science"</mark> from this academic year 2023-2024. </p>
+<button class="blinking-button"><a href="admission.html"target="_blank">Admission Registration</button></a>
 <img src="ENL4148-1200x600.jpg" height="500" width="1500">
 
 <h1 style="color:green"><b>Description</b></h1>
 <style>
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.blinking-button {
+  animation:blinker 1.5s linear infinite;
+   color: green;
+	font-size:200%;
+     font-family: sans-serif;
+  
+}
+.blink {
+                animation: blinker 1.5s linear infinite;
+                color: brown;
+				font-size:200%;
+                font-family: sans-serif;
+            }
+            @keyframes blinker {
+                50% {
+                    opacity: 0;
+                }
+            }
 
   .p-style {
     color: black;
